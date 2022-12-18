@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #28251d;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+/* ================================== */
+/* navigation bar  */
+/* ================================== */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.navbar .logo{
+    margin-left: 230px;
+}
+.navbar .nav-lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 310px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar .nav-lists li{
+    margin-left:30px ;
+}
+.navbar .nav-button{
+    background-color: transparent;
+    border:2px solid  rgb(170, 170, 10);
+    border-radius: 5px;
+    color: #b7b70e;
+    padding: 7px 13px;
+    margin-left: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ======================== */
+/* Main Section  */
+/* =========================*/
+.main-section{
+    max-width: 65%;
+    margin: auto auto;
+}
+.main-section .top-section{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.main-section .main-heading{
+    margin: 10px;
+    width: 95%;
+    font-size: 3.7em;
+}
+.main-section .main-description{
+margin: 30px 10px 10px 100px ;
+width: 70%;
+font-size: 1.2em;
+}
+.main-section .Banner-image img {
+    width: 65vw;
+    margin:55px  auto ;
+}
