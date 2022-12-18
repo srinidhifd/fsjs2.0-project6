@@ -16,17 +16,17 @@ body{
 .navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 .navbar .logo{
-    margin-left: 230px;
+    margin-left: 260px;
 }
 .navbar .nav-lists{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    margin-left: 310px;
+    margin-left: 335px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar .nav-lists li{
@@ -64,6 +64,53 @@ width: 70%;
 font-size: 1.2em;
 }
 .main-section .Banner-image img {
-    width: 65vw;
-    margin:55px  auto ;
+    width: 68vw;
+    margin:52px  auto ;
+}
+
+
+/* =============================== */
+/* Mobile Responsive media queries */
+/* =============================== */
+
+@media (max-width:600px){
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar .logo{
+        margin: 0px;
+    }
+    .navbar .logo img{
+        width: 120px;
+    }
+    .navbar .nav-lists{
+        display: none;
+    }
+    /* ==================== */
+    /* main-section */
+    /* ===================== */
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-section .top-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-section .main-heading{
+        margin: 10px;
+        width: 90%;
+        font-size: 2.5em;
+    }
+    .main-section .main-description{
+        width: 90%;
+        font-family: 1.1em;
+        margin: 5px ;
+    }
+    .main-section .Banner-image>img{
+        height: 250px;
+    }
 }
