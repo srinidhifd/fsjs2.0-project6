@@ -11,7 +11,7 @@ _Live Website_ : [Link](https://justicey.netlify.app/)
 
 ### This webpage is  not Completely Responsive as of now .
 ## **Expected Output:**
-![SEO Master](./Output.png)
+![Justice](./Output.png)
 
 ## **Achieved Output:**
-![SEO Master](./Justice.png)
+![Justice](./Justice.png)
